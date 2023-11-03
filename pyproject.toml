@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "adv-mla-3"
+version = "0.1.0"
+description = ""
+authors = ["Antonio <antonio.wang2017@outlook.com>"]
+readme = "README.md"
+packages = [{include = "adv_mla_3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "2.0.1"
+sklearn = "1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
